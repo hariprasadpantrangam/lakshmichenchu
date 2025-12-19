@@ -4,14 +4,14 @@ import Todolist from './Todolist';
 import Courseselector from './Courseselector';
 import Counter from './Counter';
 import Quizapp from './Quizapp';
-import Myimage from './hari.jpeg';
+import Myimage from '../src/hari.jpeg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-          <img src={Myimage}  alt="harimage" />
+          <img src={Myimage}  alt="harimage" width="300" />
         <h1 style={{backgroundColor:'deeppink',color:'white'}}>HARIPRAASAD SOFTWARE SOLUTIONS</h1>
         <h3 style={{backgroundColor:'goldenrod',color:'white'}}>madhapur,hyderabad,telangana</h3>
         <marquee style={{backgroundColor:'blue',color:'white'}}>for services contact:9573572830</marquee>
