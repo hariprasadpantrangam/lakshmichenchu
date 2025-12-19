@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Todolist from './Todolist';
+import Courseselector from './Courseselector';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         </a>
         <h2>some code added</h2>
       </header>
+      <Todolist />
+      <Courseselector />
+      <Counter />
     </div>
   );
 }
