@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/lakshmichenchu/static/css/main.4ab888a2.css",
-    "main.js": "/lakshmichenchu/static/js/main.97fb1c1d.js",
+    "main.js": "/lakshmichenchu/static/js/main.b36c41f1.js",
     "static/js/453.8555fb88.chunk.js": "/lakshmichenchu/static/js/453.8555fb88.chunk.js",
+    "static/media/avengers.jpg": "/lakshmichenchu/static/media/avengers.b9998966b9cab6df7de5.jpg",
     "static/media/hari.jpeg": "/lakshmichenchu/static/media/hari.529afc45ff15b611c1c6.jpeg",
     "static/media/logo.svg": "/lakshmichenchu/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/lakshmichenchu/index.html",
     "main.4ab888a2.css.map": "/lakshmichenchu/static/css/main.4ab888a2.css.map",
-    "main.97fb1c1d.js.map": "/lakshmichenchu/static/js/main.97fb1c1d.js.map",
+    "main.b36c41f1.js.map": "/lakshmichenchu/static/js/main.b36c41f1.js.map",
     "453.8555fb88.chunk.js.map": "/lakshmichenchu/static/js/453.8555fb88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ab888a2.css",
-    "static/js/main.97fb1c1d.js"
+    "static/js/main.b36c41f1.js"
   ]
 }
