@@ -28,7 +28,7 @@ function App() {
       </header>
       <Todolist />
       <Courseselector />
-      <Movie />
+     <Movie />
       <Counter />
       <Quizapp />
       

@@ -1,14 +1,18 @@
 import { useState } from "react";
 import "./styles.css";
+// Example for src folder
+import avengersImg from "../src/avengers.jpg"; // adjust path as needed
+
 
 function Movie() {
   // Movies data
-  const movies = [
-    { id: "1", name: "Avengers", img: "/images/avengers.jpg" },
-    { id: "2", name: "KGF", img: "/images/kgf.jpeg" },
-    { id: "3", name: "Pushpa", img: "/images/pushpa.jpeg" },
-    { id: "4", name: "Baahubali", img: "/images/baahubali.jpeg" },
-  ];
+ const movies = [
+  { id: "1", name: "Avengers", img:"avengersImg" },
+  { id: "2", name: "KGF", img:"/kgf.jpeg" },
+  { id: "3", name: "Pushpa", img:"/pushpa.jpeg" },
+  { id: "4", name: "Baahubali", img:"../baahubali.jpeg" }
+];
+
 
   // State management
   const [selectedMovie, setSelectedMovie] = useState(null);
@@ -176,7 +180,7 @@ function Movie() {
             <div style={{ marginTop: "20px" }}>
               <h3>📷 Scan to Pay</h3>
               <img
-                src="/images/gpay.jpg"
+                src="/gpay.jpg"
                 alt="QR Scanner"
                 style={{
                   width: "200px",
