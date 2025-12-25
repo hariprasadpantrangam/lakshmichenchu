@@ -6,6 +6,7 @@ import Counter from './Counter';
 import Quizapp from './Quizapp';
 import Myimage from '../src/hari.jpeg';
 
+
 function App() {
   return (
     <div className="App">
@@ -23,13 +24,15 @@ function App() {
         >
        
         </a>
-        <h2>some code added</h2>
+       
       </header>
       <Todolist />
       <Courseselector />
       <Counter />
       <Quizapp />
+      
     </div>
+    
   );
 }
 

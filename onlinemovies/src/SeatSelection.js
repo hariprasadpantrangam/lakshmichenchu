@@ -144,7 +144,7 @@ const SeatSelection = () => {
         <div style={{ marginTop: "20px" }}>
           <h3>📷 Scan to Pay</h3>
           <img
-            src="/images/gpay.jpg"  // Place your QR image in public/images
+            src=""  // Place your QR image in public/images
             alt="QR Scanner"
             style={{
               width: "200px",
