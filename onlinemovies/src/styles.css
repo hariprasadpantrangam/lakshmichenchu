@@ -1,0 +1,36 @@
+/* --- existing styles --- */
+.container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.seat-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 60px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.seat {
+  padding: 12px;
+  border: 1px solid #888;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.2s;
+}
+
+/* selected seat style */
+.seat.selected {
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: bold;
+}
+
+.movie-btn img {
+  width: 150px;   /* fixed width */
+  height: 200px;  /* fixed height */
+  object-fit: cover; /* crop/scale nicely */
+  border-radius: 8px; /* optional rounded corners */
+}
+
