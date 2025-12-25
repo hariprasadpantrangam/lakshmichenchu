@@ -5,7 +5,7 @@ import Courseselector from './Courseselector';
 import Counter from './Counter';
 import Quizapp from './Quizapp';
 import Myimage from '../src/hari.jpeg';
-
+import Movie from './Movie';
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
       </header>
       <Todolist />
       <Courseselector />
+      <Movie />
       <Counter />
       <Quizapp />
       
